@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ShortenPipe } from "app/shorten.pipe";
 import { FilterPipe } from "app/filter.pipe";
+import { ReversePipe } from 'app/reverse.pipe';
+import { SortPipe } from "app/sort.pipe";
 
 @NgModule({
   declarations: [
     AppComponent,
     ShortenPipe,
-    FilterPipe
+    FilterPipe,
+    ReversePipe,
+    SortPipe
   ],
   imports: [
     BrowserModule,
